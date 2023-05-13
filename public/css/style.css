@@ -1,0 +1,62 @@
+* {box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;;
+}
+h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}   
+
+.container{
+    min-height:700px;
+}
+
+.submit-btn {
+    background-color: #2c3691;
+    color: #fff !important;
+    padding: 5px 16px !important;
+    border-radius: 7px;
+}
+
+.error{
+  color: red;
+}
+
+textarea{
+    height:200px;
+}
+
+label{
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+}
+.copyright {
+    position: relative;
+    text-align: center;
+    background-color: #11195a;
+}
+
+.copyright p {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px;
+}
+
+#loader {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.75) url("/img/loader.gif") no-repeat center center;
+    z-index: 99999;
+}
