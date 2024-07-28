@@ -1,5 +1,5 @@
 # Send mail in laravel using Mailtrap 
-A small Laravel 10 application to show how you can send mail in Laravel using Mailtrap account. If you have not Mailtrap account already you can create one and then update Laravel .env file to use Mailtrap credentials. In this application I have a form to send the mail. User can enter the email id to whom he/she wants to send mail along with the subject and the mail text. A controller method gets the details from the form and sends the mail. Also, it stores the details of the mail in a database table.
+A small Laravel application to show how you can send mail in Laravel using Mailtrap account. If you have not Mailtrap account already you can create one and then update Laravel .env file to use Mailtrap credentials. In this application I have a form to send the mail. User can enter the email id to whom he/she wants to send mail along with the subject and the mail text. A controller method gets the details from the form and sends the mail. Also, it stores the details of the mail in a database table. Tutorial - https://codehow2.com/laravel/how-to-send-mail-in-laravel-using-mailtrap
 
 # How To Use
 
